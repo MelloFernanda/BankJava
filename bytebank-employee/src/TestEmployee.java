@@ -2,13 +2,13 @@ public class TestEmployee {
 
     public static void main(String[] args) {
 
-        BankEmployee Fernanda = new BankEmployee();
+        BankEmployee Beatrix = new BankEmployee();
 
-        Fernanda.setName("Fernanda Batalha de Mello");
-        Fernanda.setCpf("222.222.222-22");
-        Fernanda.setSalary(3000);
+        Beatrix.setName("Beatrix Kiddo");
+        Beatrix.setCpf("222.222.222-22");
+        Beatrix.setSalary(3000);
 
-        System.out.println(Fernanda.getName());
-        System.out.println(Fernanda.getBonus());
+        System.out.println(Beatrix.getName());
+        System.out.println(Beatrix.getBonus());
     }
 }

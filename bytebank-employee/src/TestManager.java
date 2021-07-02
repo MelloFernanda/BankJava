@@ -4,7 +4,7 @@ public class TestManager {
 
         Manager g1 = new Manager();
 
-        g1.setName("Bill");
+        g1.setName("Kill Bill");
         g1.setCpf("333.333.333-33");
         g1.setSalary(8000);
 
