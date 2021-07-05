@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bytebank.iml" filepath="$PROJECT_DIR$/bytebank.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytebank-employee/bytebank-employee.iml" filepath="$PROJECT_DIR$/bytebank-employee/bytebank-employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytebank-herdado-account/bytebank-herdado-account.iml" filepath="$PROJECT_DIR$/bytebank-herdado-account/bytebank-herdado-account.iml" />
     </modules>
   </component>
 </project>

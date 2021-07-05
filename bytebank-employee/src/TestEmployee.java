@@ -2,7 +2,7 @@ public class TestEmployee {
 
     public static void main(String[] args) {
 
-        BankEmployee Beatrix = new BankEmployee();
+        BankEmployee Beatrix = new Manager();
 
         Beatrix.setName("Beatrix Kiddo");
         Beatrix.setCpf("222.222.222-22");

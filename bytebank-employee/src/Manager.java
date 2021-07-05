@@ -15,4 +15,8 @@ public class Manager extends BankEmployee{
         }
     }
 
+    public double getBonus(){
+        return super.getSalary() + (super.getSalary()*0.1);
+    }
+
 }

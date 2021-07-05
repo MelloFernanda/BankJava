@@ -1,9 +1,9 @@
-public abstract class BankEmployee {
+public class Client {
     private String name;
     private String cpf;
-    private double salary;
+    private String job;
 
-    public abstract double getBonus();
+    //Métodos
 
     public String getName() {
         return name;
@@ -21,10 +21,11 @@ public abstract class BankEmployee {
     }
 
 
-    public double getSalary() {
-        return salary;
+    public String getJob() {
+        return job;
     }
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setJob(String job) {
+        this.job = job;
     }
+
 }
