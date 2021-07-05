@@ -1,4 +1,4 @@
-public class BankAccount {
+public abstract class BankAccount {
     //Atributos
     private double balance;
     private int agency;
