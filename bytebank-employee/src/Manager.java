@@ -1,11 +1,14 @@
-public class Manager extends BankEmployee{
+public class Manager extends BankEmployee implements Autenticavel{
     private int password;
 
+
+    @Override
     public void setPassword(int password) {
         this.password = password;
     }
 
-    public boolean authenticatePassword(int password){
+    @Override
+    public boolean authenticatePassword(int password) {
         if(this.password==password){
             return true;
         }else{
